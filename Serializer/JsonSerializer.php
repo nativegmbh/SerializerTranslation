@@ -77,7 +77,7 @@ class JsonSerializer implements JsonSerializerInterface
 
                 $parameters = $this->expressionEvaluator->evaluateArray($propertyMetadata->parameters, $data);
 
-                $value = $this->translator->trans($value, $parameters, $propertyMetadata->domain, $locale);
+                $value = $this->translator->trans($value, $parameters, $propertyMetadata->domain);
                 $propertyMetadata->setValue($data, $this->expressionEvaluator->evaluate($value, $data));
             }
         }
