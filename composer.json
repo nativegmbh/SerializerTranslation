@@ -1,5 +1,5 @@
 {
-    "name": "avoo/serializer-translation",
+    "name": "nativegmbh/serializer-translation",
     "type": "symfony-bundle",
     "description": "Translation component for JMS Serializer",
     "keywords": ["Serializer translation"],
